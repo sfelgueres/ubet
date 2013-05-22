@@ -1,4 +1,5 @@
 Ubet::Application.routes.draw do
+  get 'signup' => 'pages#signup'
   get 'about' => 'pages#about'
   get 'login' => 'pages#login'
   root :to => 'pages#home'
